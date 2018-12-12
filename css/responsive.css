@@ -1,0 +1,20 @@
+@media (max-width: 1000px) {
+  .weather-output, .temp-value-section {
+    text-align: center !important;
+  }
+  header .weather-output span#temp-value {
+    font-size: 4em;
+    font-weight: bold;
+  }
+  header .weather-output span.temp-scale {
+    font-size: 1em;
+    color: #f3f3f3;
+  }
+  header .weather-output span#temp-text {
+    font-size: 1em;
+  }
+  header .weather-output .temp-region {
+    font-size: 2em;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
