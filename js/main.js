@@ -29,6 +29,6 @@ $(document).ready(function(){
         e.preventDefault();
     });
 
-    $('.counter').counterUp();
+    
 
 });
