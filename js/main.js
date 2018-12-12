@@ -8,7 +8,7 @@ $(document).ready(function(){
         input = input.toLowerCase();
         
         // Creating an ajax get request
-        var searchURL = "http://api.openweathermap.org/data/2.5/weather?q="+ input +"&APPID=65529846dae7ce2080934eed38d40b9d";
+        var searchURL = "https://api.openweathermap.org/data/2.5/weather?q="+ input +"&APPID=65529846dae7ce2080934eed38d40b9d";
         $.get(searchURL, function(response, status){
             
             //response values
@@ -28,7 +28,5 @@ $(document).ready(function(){
         });
         e.preventDefault();
     });
-
-    
 
 });
